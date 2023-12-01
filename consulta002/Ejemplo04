@@ -1,0 +1,8 @@
+limite = int(input("Ingrese un número para el conteo regresivo: "))
+
+contador = limite
+while contador >= 0:
+    print(contador)
+    contador = contador - 1
+
+print("¡Conteo regresivo completado!")
